@@ -64,14 +64,12 @@ namespace osu.Game.Overlays.Profile.Header.Components
 
             if (mania4KRanks != null)
             {
-                // Logic to handle 4K rank data visualization
-                // Example: Add to separate Data container or overlay graph logic
+                // Add logic to handle 4K rank data visualization
             }
 
             if (mania7KRanks != null)
             {
-                // Logic to handle 7K rank data visualization
-                // Example: Add to separate Data container or overlay graph logic
+                // Add logic to handle 7K rank data visualization
             }
         }
 

@@ -19,6 +19,7 @@ namespace osu.Game.Overlays.Profile.Sections
             var recentActivityContainer = new PaginatedRecentActivityContainer(User);
 
             // Add custom sections for osu!mania 4K and 7K activities.
+            // Note: Parts of this code was written using generative AI.
             var mania4KActivityContainer = new PaginatedRecentActivityContainer(User)
             {
                 Filter = activity => activity.Ruleset.ShortName == "mania" && activity.KeyCount == 4,
